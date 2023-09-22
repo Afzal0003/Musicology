@@ -1,0 +1,1833 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mobile-header{
+    background-color: #303030;
+}
+
+.mobile{
+    display: flex;
+    justify-content: space-between;
+}
+
+#mobilenav {
+    display: none;
+}
+
+#mobilenav li{
+    list-style-type: none;
+}
+
+#mobilenav li a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.mobile-header ul li:hover {
+    background-color: #213d29;
+}
+
+.bars{
+    text-align: center;
+    padding: 26px 0;
+}
+
+body,
+a {
+    color: white;
+}
+
+.main-header {
+    background-color: #303030;
+    display: none;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    padding: 0px 20px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    /* background-color: black; */
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav li a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.second-slide {
+    position: relative;
+}
+
+.second-slide img {
+    display: flex;
+    width: 100%;
+}
+
+.second-desc {
+    width: 300px;
+}
+
+.second-desc h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.second-desc p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    padding: 9px 0px 30px 0px;
+}
+
+.second-desc a {
+    text-decoration: none;
+    padding: 9px 24px;
+    background-color: #e8631c;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    border-radius: 4px;
+}
+
+.third-slide {
+    background-image: url('./img/3bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.third-slide img {
+    width: 100%;
+    display: flex;
+}
+
+.third-tags {
+    text-align: center;
+}
+
+.third-tags p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    display: flex;
+}
+
+.third-slide-desc {
+    padding: 20px 0;
+}
+
+.third-slide-desc h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+
+.third-slide-desc .tags-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 35px 0px 75px;
+    display: flex;
+}
+
+.third-slide-desc .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    padding-top: 25px;
+}
+
+.third-slide-desc .card {
+    background-color: #303030;
+    text-align: center;
+}
+
+.third-slide-desc .card h6 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.third-slide-desc .card p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 0 10px;
+}
+
+/* FOURTH */
+.fourth-slide {
+    background-image: url('./img/4bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.fourth-slide img {
+    width: 100%;
+    display: flex;
+    width: auto;
+    align-items: center;
+}
+
+.fourth-tags {
+    /* width: 1200px; */
+    text-align: center;
+    /* padding-left: 131px; */
+}
+
+.fourth-slide-desc h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.fourth-slide-desc .tags-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 15px 0px 28px;
+    display: flex;
+}
+
+.fourth-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+    padding-bottom: 40px;
+
+}
+
+.fourth-card {
+    background-color: #e8631c;
+}
+
+.fourth-card img {
+    padding: 0px 85px 0;
+    padding-top: 30px;
+}
+
+.fourth-card h6 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.fourth-card p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+
+.fourth-card a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    padding: 5px 40px;
+    background-color: #303030;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.fifth {
+    background-image: url('./img/5-1bg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fifth-right,
+.fifth-left {
+    width: 100%;
+}
+
+.fifth-right h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.content p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 11px 0px 35px 0;
+    display: inline-block;
+}
+
+.fifth-right a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 6px 30px;
+    background-color: #303030;
+    border-radius: 4px;
+    display: inline-block;
+    /* margin-bottom: 30px; */
+}
+
+.content {
+    width: 319px;
+    padding: 5% 20px;
+}
+
+/* STATISTICS */
+
+.stats {
+    background-color: #303030;
+}
+
+.stats h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    padding: 30px 0 20px;
+
+}
+
+.stats p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0 110px;
+    justify-content: space-around;
+}
+
+.stats .no {
+    font-family: 'Oswald', sans-serif;
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.stats .d {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.simon {
+    /* WIDTH NU ISSUE CHE */
+    width: auto;
+    background-image: url('./img/simon.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 28px 0;
+    text-align: center;
+
+}
+
+.simon p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.simon .bold {
+    font-family: 'Oswald', sans-serif;
+    font-size: 33px;
+    /* text-align: center; */
+    font-weight: 400;
+}
+
+.subs {
+    background-image: url('./img/sub2.png');
+    padding: 20px 0 47px;
+}
+
+.subs h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.subs p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    font-weight: 400;
+}
+
+form {
+    padding: 60px 86px 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 10px 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    text-align: left;
+    width: 280px;
+}
+
+form a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    padding: 10px 187px 10px 92px;
+    background-color: #303030;
+    border-radius: 4px;
+    display: inline-block;
+    /* display: flex; */
+}
+
+.main-footer {
+    background-color: #303030;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 75px 0px 45px;
+    justify-content: space-between;
+}
+
+.left-footer h6 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.left-footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 35px 0 40px;
+}
+
+.left-footer .icons {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    /* DOUBT */
+    gap: 40px;
+    text-align: center;
+}
+
+.right-footer h6 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.right-footer ul {
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.right-footer ul li {
+    padding-bottom: 10px;
+}
+
+.right-footer li a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 375px) {
+    form input {
+        width: fit-content;
+    }
+    form a {
+        padding: 10px 205px 10px 111px;
+    }
+    .fourth-card img {
+        padding: 0px 111px 0;
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .left-footer h6 {
+        font-size: 34px;
+    }
+    .right-footer h6 {
+        font-size: 40px;
+    }
+    form input {
+        width: fit-content;
+    }
+    .stats p {
+        font-size: 21px;
+    }
+    .fourth-card img {
+        padding: 20px 136px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 0px 30px;
+    }
+
+    .main-header {
+        display: block;
+    }
+
+    .mobile-header{
+        display: none;
+    }
+
+    .left-footer {
+        width: 40%;
+    }
+
+    .left-footer .icons {
+        margin-bottom: 0px;
+    }
+
+    .left-footer img {
+        padding-right: 10px;
+    }
+
+    /* .third-tags {
+        text-align: center;
+        padding-left: 131px;
+    } */
+
+    .third-slide-desc {
+        /* padding: 79px; */
+    }
+
+    .third-slide-desc .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 80px 0 50px;
+    }
+
+    .third-slide-desc .card {
+        width: 28%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        padding: 125px 0px 90px;
+        justify-content: space-between;
+    }
+
+    .fifth-right,
+    .fifth-left {
+        width: 50%;
+    }
+
+    .fifth {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .second-desc {
+        position: absolute;
+        bottom: 10%;
+        transform: translate(0, -10%);
+        bottom: 5%;
+        width: 420px;
+        /* sir jem k aya width change karvani jarur padi tobadha ma change krvi khpse */
+    }
+
+    .second-desc h2 {
+        font-size: 85px;
+    }
+
+    .second-desc p {
+        font-size: 20px;
+    }
+
+    .second-desc a {
+        padding: 9px 48px;
+        font-size: 20px;
+    }
+
+    .third-slide-desc h2 {
+        font-size: 60px;
+        padding-bottom: 18px;
+        /* padding-right: 102px; */
+    }
+
+    .third-tags p {
+        font-size: 20px;
+        justify-content: center;
+    }
+
+    .third-slide-desc .card p {
+        font-size: 14px;
+    }
+
+    .third-slide-desc .card p {
+        font-size: 15px;
+        padding: 10px 0 23px;
+    }
+
+    .third-slide-desc .card h6 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .fourth-slide-desc h2 {
+        font-size: 60px;
+        padding-top: 46px;
+    }
+
+    .fourth-slide-desc .tags-p {
+        font-size: 19px;
+        padding: 20px 88px 42px;
+    }
+
+    .fourth-card img {
+        padding: 0px 38px 0;
+        padding-top: 20px;
+    }
+
+    .fourth-card h6 {
+        font-size: 28px;
+        padding-top: 25px;
+    }
+
+    .fourth-card p {
+        font-size: 16px;
+        padding: 18px 0;
+    }
+
+    .fourth-card a {
+        font-size: 21px;
+        padding: 14px 50px;
+    }
+
+    .fourth-card {
+        width: 33%;
+
+        padding: 0px 10px 0;
+    }
+
+    .fourth-cards {
+        display: flex;
+        flex-direction: row;
+        gap: 46px;
+        padding-bottom: 100px;
+    }
+
+    .fifth-right h2 {
+        font-size: 52px;
+    }
+
+    .content {
+        width: 380px;
+        padding: 25% 51px;
+    }
+
+    .content p {
+        font-size: 18px;
+        padding: 26px 0px 45px 0;
+    }
+
+    .fifth-right a {
+        font-size: 24px;
+        padding: 11px 83px;
+    }
+
+    .stats h2 {
+        font-size: 65px;
+        padding: 100px 0 60px;
+    }
+
+    .stats p {
+        font-size: 20px;
+    }
+
+    .numbers {
+        display: flex;
+        flex-direction: row;
+        padding: 120px 0 190px;
+    }
+
+    .stats .no {
+        font-size: 57px;
+    }
+
+    .stats .d {
+        font-size: 28px;
+    }
+
+    .simon {
+        width: auto;
+        background-image: url(./img/simon.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 160px 0;
+        text-align: center;
+    }
+
+    .simon p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 34px;
+        font-weight: 400;
+        padding-bottom: 40px;
+    }
+
+    .simon .bold {
+        font-size: 50px;
+    }
+
+    .subs {
+        padding: 70px 0 110px;
+    }
+
+    .subs h2 {
+        font-size: 60px;
+        padding-bottom: 50px;
+    }
+
+    .subs p {
+        font-size: 22px;
+    }
+
+    form {
+        padding: 45px 235px 0 222px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    form input {
+        padding: 11px 140px 11px 40px;
+        font-size: 25px;
+        width: fit-content;
+    }
+
+    form a {
+        font-size: 25px;
+        padding: 10px 35px;
+    }
+
+    .left-footer p {
+        font-size: 15px;
+        padding: 35px 0 40px;
+    }
+
+    .right-footer ul li {
+        padding-bottom: 10px;
+    }
+
+    .right-footer li a {
+        font-size: 15px;
+    }
+
+    .right-footer h6 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .right-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        text-align: left;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        padding: 0px 80px;
+    }
+
+    .left-footer {
+        width: 40%;
+    }
+
+    .left-footer .icons {
+        margin-bottom: 0px;
+    }
+
+    .left-footer img {
+        padding-right: 10px;
+    }
+
+    .third-tags {
+        text-align: center;
+        padding-left: 131px;
+    }
+
+    .third-slide-desc {
+        /* padding: 79px; */
+    }
+
+    .third-slide-desc .cards {
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+        padding: 80px 0 50px;
+    }
+
+    .third-slide-desc .card {
+        width: 28%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        padding: 125px 0px 90px;
+        justify-content: space-between;
+    }
+
+    .fifth-right,
+    .fifth-left {
+        width: 50%;
+    }
+
+    .fifth {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .second-desc {
+        position: absolute;
+        bottom: 10%;
+        transform: translate(0, -10%);
+        bottom: 5%;
+        width: 420px;
+        /* sir jem k aya width change karvani jarur padi tobadha ma change krvi khpse */
+    }
+
+    .second-desc h2 {
+        font-size: 85px;
+    }
+
+    .second-desc p {
+        font-size: 20px;
+    }
+
+    .second-desc a {
+        padding: 9px 48px;
+        font-size: 20px;
+    }
+
+    .third-slide-desc h2 {
+        font-size: 60px;
+        padding-bottom: 18px;
+        padding-right: 102px;
+    }
+
+    .third-tags p {
+        font-size: 20px;
+    }
+
+    .third-slide-desc .card p {
+        font-size: 14px;
+    }
+
+    .third-slide-desc .card p {
+        font-size: 15px;
+        padding: 10px 0 23px;
+    }
+
+    .third-slide-desc .card h6 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .fourth-slide-desc h2 {
+        font-size: 60px;
+        padding-top: 46px;
+    }
+
+    .fourth-slide-desc .tags-p {
+        font-size: 19px;
+        padding: 20px 164px 42px;
+    }
+
+    .fourth-card img {
+        padding: 0px 64px 0;
+        padding-top: 40px;
+    }
+
+    .fourth-card h6 {
+        font-size: 33px;
+        padding-top: 25px;
+    }
+
+    .fourth-card p {
+        font-size: 16px;
+        padding: 18px 0;
+    }
+
+    .fourth-card a {
+        font-size: 21px;
+        padding: 14px 81px;
+    }
+
+    .fourth-card {
+        width: 33%;
+
+        padding: 0px 10px 0;
+    }
+
+    .fourth-cards {
+        display: flex;
+        flex-direction: row;
+        gap: 41px;
+        padding-bottom: 100px;
+    }
+
+    .fifth-right h2 {
+        font-size: 52px;
+    }
+
+    .content {
+        width: 470px;
+        padding: 50% 51px;
+    }
+
+    .content p {
+        font-size: 18px;
+        padding: 26px 0px 45px 0;
+    }
+
+    .fifth-right a {
+        font-size: 24px;
+        padding: 11px 83px;
+    }
+
+    .stats h2 {
+        font-size: 65px;
+        padding: 100px 0 60px;
+    }
+
+    .stats p {
+        font-size: 20px;
+    }
+
+    .numbers {
+        display: flex;
+        flex-direction: row;
+        padding: 120px 0 190px;
+    }
+
+    .stats .no {
+        font-size: 57px;
+    }
+
+    .stats .d {
+        font-size: 28px;
+    }
+
+    .simon {
+        width: auto;
+        background-image: url(./img/simon.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 239px 0;
+        text-align: center;
+    }
+
+    .simon p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 34px;
+        font-weight: 400;
+        padding-bottom: 40px;
+    }
+
+    .simon .bold {
+        font-size: 50px;
+    }
+
+    .subs {
+        padding: 70px 0 110px;
+    }
+
+    .subs h2 {
+        font-size: 60px;
+        padding-bottom: 50px;
+    }
+
+    .subs p {
+        font-size: 22px;
+    }
+
+    form {
+        padding: 45px 235px 0 160px;
+        flex-direction: row;
+    }
+
+    form input {
+        padding: 11px 140px 11px 40px;
+        font-size: 25px;
+        width: fit-content;
+    }
+
+    form a {
+        font-size: 25px;
+        padding: 10px 35px;
+    }
+
+    .left-footer p {
+        font-size: 15px;
+        padding: 35px 0 40px;
+    }
+
+    .right-footer ul li {
+        padding-bottom: 10px;
+    }
+
+    .right-footer li a {
+        font-size: 15px;
+    }
+
+    .right-footer h6 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .right-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        text-align: left;
+    }
+
+}
+
+
+@media only screen and (min-width: 1366px) {
+    .second-desc {
+        position: absolute;
+        bottom: 10%;
+        transform: translate(0, -10%);
+        bottom: 3%;
+        width: 600px;
+    }
+
+    .left-footer {
+        width: 45%;
+    }
+
+    .left-footer .icons {
+        margin-bottom: 0px;
+    }
+
+    .left-footer img {
+        padding-right: 10px;
+    }
+
+    .fifth-right,
+    .fifth-left {
+        width: 50%;
+    }
+
+    .fifth {
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer {
+        display: flex;
+        /* flex-direction: column; */
+        padding: 125px 0px 90px;
+        justify-content: space-between;
+    }
+
+    .third-tags {
+        text-align: center;
+        padding-left: 131px;
+    }
+
+    .third-slide-desc {
+        padding: 79px;
+    }
+
+    .third-slide-desc .cards {
+        display: flex;
+        gap: 80px;
+        padding-top: 80px;
+    }
+
+    .third-slide-desc .card {
+        width: 28%;
+    }
+
+    .container {
+        padding: 0px 80px;
+    }
+
+    .second-desc h2 {
+        font-size: 125px;
+    }
+
+    .second-desc p {
+        font-size: 27px;
+    }
+
+    .second-desc a {
+        padding: 9px 81px;
+        font-size: 29px;
+    }
+
+    .third-slide-desc h2 {
+        font-size: 75px;
+        padding-bottom: 18px;
+        padding-right: 102px;
+    }
+
+    .third-tags p {
+        font-size: 30px;
+    }
+
+    .third-slide-desc h2 {
+        font-size: 75px;
+        padding-bottom: 18px;
+        padding-right: 102px;
+    }
+
+    .third-slide-desc .card p {
+        font-size: 22px;
+        padding: 20px 0 30px;
+    }
+
+    .third-slide-desc .card h6 {
+        font-size: 37px;
+        padding-top: 30px;
+    }
+
+    .fourth-slide-desc h2 {
+        font-size: 75px;
+        padding-top: 100px;
+    }
+
+    .fourth-slide-desc .tags-p {
+        font-size: 30px;
+        padding: 30px 164px 62px;
+    }
+
+    .fourth-card img {
+        padding: 0px 105px 0;
+        padding-top: 40px;
+    }
+
+    .fourth-card h6 {
+        font-size: 37px;
+        padding-top: 55px;
+    }
+
+    .fourth-card p {
+        font-size: 22px;
+        padding: 30px 0;
+    }
+
+    .fourth-card a {
+        font-size: 25px;
+        padding: 16px 122px;
+        margin-bottom: 30px;
+    }
+
+    .fourth-card {
+        width: 33%;
+        padding: 0px 25px 0;
+    }
+
+    .fourth-cards {
+        gap: 43px;
+        display: flex;
+        padding-bottom: 100px;
+
+
+    }
+
+    .fifth-right h2 {
+        font-size: 60px;
+        display: inline-block;
+    }
+
+    .content {
+        width: 773px;
+        padding: 50% 60px;
+    }
+
+    .content p {
+        font-size: 27px;
+    }
+
+    .fifth-right a {
+        font-size: 27px;
+        padding: 13px 88px;
+    }
+
+    .stats h2 {
+        font-size: 75px;
+        padding: 200px 0 60px;
+    }
+
+    .stats p {
+        font-size: 30px;
+    }
+
+    .numbers {
+        display: flex;
+
+        padding: 190px 0 270px;
+    }
+
+    .stats .no {
+        font-size: 67px;
+    }
+
+    .stats .d {
+        font-size: 42px;
+    }
+
+    .simon {
+        padding: 335px 0;
+
+    }
+
+    .simon p {
+        font-size: 50px;
+        padding-bottom: 75px;
+    }
+
+    .simon .bold {
+        font-size: 60px;
+    }
+
+    .subs {
+        padding: 130px 0 160px;
+    }
+
+    .subs h2 {
+        font-size: 75px;
+        padding-bottom: 50px;
+
+    }
+
+    .subs p {
+        font-size: 30px;
+    }
+
+    form {
+        padding: 60px 235px 0 275px;
+    }
+
+    form input {
+        padding: 14px 209px 15px 40px;
+        font-size: 25px;
+        width: fit-content;
+    }
+
+    form a {
+        font-size: 30px;
+        padding: 10px 70px;
+    }
+
+    .left-footer p {
+        font-size: 23px;
+    }
+
+    .right-footer ul li {
+        padding-bottom: 20px;
+    }
+
+    .right-footer li a {
+        font-size: 25px;
+    }
+
+    .right-footer {
+        gap: 30px;
+        display: flex;
+        gap: 40px;
+        text-align: left;
+    }
+
+    .right-footer li a {
+        font-size: 23px;
+    }
+
+    .right-footer h6 {
+        font-size: 34px;
+        padding-bottom: 40px;
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 1440px) {
+    .second-desc {
+        position: absolute;
+        bottom: 10%;
+        transform: translate(0, -10%);
+        bottom: 5%;
+        width: 800px;
+
+    }
+
+    .left-footer {
+        width: 40%;
+    }
+
+    .left-footer .icons {
+        margin-bottom: 0px;
+    }
+
+    .left-footer img {
+        padding-right: 10px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        padding: 125px 0px 90px;
+        justify-content: space-between;
+    }
+
+    .fifth-right,
+    .fifth-left {
+        width: 50%;
+    }
+
+    .fifth {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .third-tags {
+        text-align: center;
+        padding-left: 131px;
+    }
+
+    .third-slide-desc {
+        padding: 79px;
+    }
+
+    .third-slide-desc .cards {
+        display: flex;
+        gap: 80px;
+        padding-top: 80px;
+    }
+
+    .third-slide-desc .card {
+        width: 28%;
+    }
+
+    .container {
+        padding: 0px 80px;
+    }
+
+    .second-desc h2 {
+        font-size: 125px;
+    }
+
+    .second-desc p {
+        font-size: 30px;
+    }
+
+    .second-desc a {
+        padding: 9px 81px;
+        font-size: 29px;
+    }
+
+    .third-slide-desc h2 {
+        font-size: 75px;
+        padding-bottom: 18px;
+        padding-right: 102px;
+    }
+
+    .third-tags p {
+        font-size: 30px;
+    }
+
+    .third-slide-desc h2 {
+        font-size: 75px;
+        padding-bottom: 18px;
+        padding-right: 102px;
+    }
+
+    .third-slide-desc .card p {
+        font-size: 22px;
+        padding: 20px 0 30px;
+    }
+
+    .third-slide-desc .card h6 {
+        font-size: 37px;
+        padding-top: 30px;
+    }
+
+    .fourth-slide-desc h2 {
+        font-size: 75px;
+        padding-top: 100px;
+    }
+
+    .fourth-slide-desc .tags-p {
+        font-size: 30px;
+        padding: 30px 164px 62px;
+    }
+
+    .fourth-card img {
+        padding: 0px 105px 0;
+        padding-top: 40px;
+    }
+
+    .fourth-card h6 {
+        font-size: 37px;
+        padding-top: 55px;
+    }
+
+    .fourth-card p {
+        font-size: 22px;
+        padding: 30px 0;
+    }
+
+    .fourth-card a {
+        font-size: 25px;
+        padding: 16px 122px;
+        margin-bottom: 30px;
+    }
+
+    .fourth-card {
+        width: 33%;
+        padding: 0px 25px 0;
+    }
+
+    .fourth-cards {
+        display: flex;
+        gap: 85px;
+        padding-bottom: 100px;
+    }
+
+    .fifth-right h2 {
+        font-size: 60px;
+        display: inline-block;
+    }
+
+    .content {
+        width: 773px;
+        padding: 50% 60px;
+    }
+
+
+    .content p {
+        font-size: 30px;
+    }
+
+    .stats h2 {
+        font-size: 75px;
+        padding: 200px 0 60px;
+    }
+
+    .stats p {
+        font-size: 30px;
+    }
+
+    .numbers {
+        display: flex;
+
+        padding: 190px 0 270px;
+    }
+
+    .stats .no {
+        font-size: 67px;
+    }
+
+    .stats .d {
+        font-size: 42px;
+    }
+
+    .simon {
+        padding: 335px 0;
+
+    }
+
+    .simon p {
+        font-size: 50px;
+        padding-bottom: 75px;
+    }
+
+    .simon .bold {
+        font-size: 60px;
+    }
+
+    .subs {
+        padding: 130px 0 160px;
+    }
+
+    .subs h2 {
+        font-size: 75px;
+        padding-bottom: 50px;
+
+    }
+
+    .subs p {
+        font-size: 30px;
+    }
+
+    form {
+        padding: 60px 235px 0 275px;
+    }
+
+    form input {
+        padding: 14px 209px 15px 40px;
+        font-size: 25px;
+        width: fit-content;
+    }
+
+    form a {
+        font-size: 30px;
+        padding: 10px 68px;
+    }
+
+    .left-footer p {
+        font-size: 25px;
+    }
+
+    .right-footer ul li {
+        padding-bottom: 20px;
+    }
+
+    .right-footer li a {
+        font-size: 25px;
+    }
+
+    .fifth-right a {
+        font-size: 30px;
+        padding: 16px 97px;
+    }
+
+    .right-footer {
+        gap: 40px;
+    }
+
+    .right-footer {
+        gap: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        text-align: left;
+    }
+
+    .right-footer li a {
+        font-size: 25px;
+    }
+
+    .right-footer h6 {
+        font-size: 34px;
+        padding-bottom: 40px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 1920px) {
+    .second-desc {
+        position: absolute;
+        bottom: 10%;
+        transform: translate(0, -10%);
+        bottom: 5%;
+        width: 800px;
+
+    }
+
+    .left-footer {
+        width: 40%;
+    }
+
+    .left-footer .icons {
+        margin-bottom: 0px;
+    }
+
+    .left-footer img {
+        padding-right: 10px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        padding: 125px 0px 90px;
+        justify-content: space-between;
+    }
+
+    .fifth-right,
+    .fifth-left {
+        width: 50%;
+    }
+
+    .fifth {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .third-tags {
+        text-align: center;
+        padding-left: 131px;
+    }
+
+    .third-slide-desc {
+        padding: 79px 0;
+    }
+
+    .third-slide-desc .cards {
+        display: flex;
+        gap: 80px;
+        padding-top: 80px;
+    }
+
+    .third-slide-desc .card {
+        width: 28%;
+    }
+
+    .container {
+        padding: 0px 80px;
+    }
+
+    .second-desc h2 {
+        font-size: 160px;
+    }
+
+    .second-desc p {
+        font-size: 35px;
+    }
+
+    .second-desc a {
+        padding: 9px 81px;
+        font-size: 29px;
+    }
+
+    .third-slide-desc h2 {
+        font-size: 75px;
+        padding-bottom: 18px;
+        padding-right: 102px;
+    }
+
+    .third-tags p {
+        font-size: 30px;
+    }
+
+    .third-slide-desc h2 {
+        font-size: 75px;
+        padding-bottom: 18px;
+        padding-right: 102px;
+    }
+
+    .third-slide-desc .card p {
+        font-size: 22px;
+        padding: 20px 0 30px;
+    }
+
+    .third-slide-desc .card h6 {
+        font-size: 37px;
+        padding-top: 30px;
+    }
+
+    .fourth-slide-desc h2 {
+        font-size: 75px;
+        padding-top: 100px;
+    }
+
+    .fourth-slide-desc .tags-p {
+        font-size: 30px;
+        padding: 30px 164px 62px;
+    }
+
+    .fourth-card img {
+        padding: 0px 105px 0;
+        padding-top: 40px;
+    }
+
+    .fourth-card h6 {
+        font-size: 37px;
+        padding-top: 55px;
+    }
+
+    .fourth-card p {
+        font-size: 22px;
+        padding: 30px 0;
+    }
+
+    .fourth-card a {
+        font-size: 25px;
+        padding: 16px 122px;
+        margin-bottom: 30px;
+    }
+
+    .fourth-card {
+        width: 33%;
+        padding: 0px 25px 0;
+    }
+
+    .fourth-cards {
+        display: flex;
+        gap: 85px;
+        padding-bottom: 100px;
+    }
+
+    .fifth-right h2 {
+        font-size: 60px;
+        display: inline-block;
+    }
+
+    .content {
+        width: 773px;
+        padding: 50% 60px;
+    }
+
+
+    .content p {
+        font-size: 30px;
+    }
+
+    .stats h2 {
+        font-size: 75px;
+        padding: 200px 0 60px;
+    }
+
+    .stats p {
+        font-size: 30px;
+    }
+
+    .numbers {
+        display: flex;
+
+        padding: 190px 0 270px;
+    }
+
+    .stats .no {
+        font-size: 67px;
+    }
+
+    .stats .d {
+        font-size: 42px;
+    }
+
+    .simon {
+        padding: 335px 0;
+
+    }
+
+    .simon p {
+        font-size: 50px;
+        padding-bottom: 75px;
+    }
+
+    .simon .bold {
+        font-size: 60px;
+    }
+
+    .subs {
+        padding: 130px 0 160px;
+    }
+
+    .subs h2 {
+        font-size: 75px;
+        padding-bottom: 50px;
+
+    }
+
+    .subs p {
+        font-size: 30px;
+    }
+
+    form {
+        justify-content: center;
+    }
+
+    form input {
+        padding: 14px 209px 15px 40px;
+        font-size: 25px;
+        width: fit-content;
+    }
+
+    form a {
+        font-size: 30px;
+        padding: 10px 68px;
+    }
+
+    .left-footer p {
+        font-size: 25px;
+    }
+
+    .right-footer ul li {
+        padding-bottom: 20px;
+    }
+
+    .right-footer li a {
+        font-size: 25px;
+    }
+
+    .fifth-right a {
+        font-size: 30px;
+        padding: 16px 97px;
+    }
+
+    .right-footer {
+        gap: 40px;
+    }
+
+    .right-footer {
+        gap: 30px;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        text-align: left;
+    }
+
+    .right-footer li a {
+        font-size: 25px;
+    }
+
+    .right-footer h6 {
+        font-size: 34px;
+        padding-bottom: 40px;
+    }
+
+}
