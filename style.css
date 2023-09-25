@@ -6,24 +6,25 @@
     box-sizing: border-box;
 }
 
-.mobile-header{
+.mobile-header {
     background-color: #303030;
 }
 
-.mobile{
+.mobile {
     display: flex;
     justify-content: space-between;
 }
 
 #mobilenav {
     display: none;
+    text-align: right;
 }
 
-#mobilenav li{
+#mobilenav li {
     list-style-type: none;
 }
 
-#mobilenav li a{
+#mobilenav li a {
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
@@ -34,7 +35,7 @@
     background-color: #213d29;
 }
 
-.bars{
+.bars {
     text-align: center;
     padding: 26px 0;
 }
@@ -480,9 +481,11 @@ footer {
     form input {
         width: fit-content;
     }
+
     form a {
         padding: 10px 205px 10px 111px;
     }
+
     .fourth-card img {
         padding: 0px 111px 0;
         padding-top: 40px;
@@ -493,15 +496,19 @@ footer {
     .left-footer h6 {
         font-size: 34px;
     }
+
     .right-footer h6 {
         font-size: 40px;
     }
+
     form input {
         width: fit-content;
     }
+
     .stats p {
         font-size: 21px;
     }
+
     .fourth-card img {
         padding: 20px 136px 0;
     }
@@ -516,7 +523,7 @@ footer {
         display: block;
     }
 
-    .mobile-header{
+    .mobile-header {
         display: none;
     }
 
