@@ -429,6 +429,10 @@ footer {
     justify-content: space-between;
 }
 
+.left-footer {
+    text-align: center;
+}
+
 .left-footer h6 {
     font-family: 'Oswald', sans-serif;
     font-size: 34px;
@@ -445,6 +449,7 @@ footer {
 .left-footer .icons {
     display: flex;
     margin-bottom: 50px;
+    justify-content: space-around;
 }
 
 .right-footer {
@@ -534,10 +539,12 @@ footer {
 
     .left-footer {
         width: 40%;
+        text-align: left;
     }
 
     .left-footer .icons {
         margin-bottom: 0px;
+        justify-content: start;
     }
 
     .left-footer img {
